@@ -20,8 +20,8 @@ class CreateTrainsTable extends Migration
             $table->string("where_for",50);
             $table->date("departure")->default(date("Y-m-d H:i:s"));
             $table->date("arrival")->default(date("Y-m-d H:i:s"));
-            $table->tinyInteger("train_code");
-            $table->tinyInteger("carriage_number");
+            $table->smallInteger("train_code");
+            $table->smallInteger("carriage_number");
             $table->boolean("isTrainLate")->default(false);
             $table->boolean("isTrainDeleted")->default(false);
             $table->timestamps();

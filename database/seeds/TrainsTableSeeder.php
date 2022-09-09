@@ -60,7 +60,7 @@ class TrainsTableSeeder extends Seeder
         $train4->where_for = 'Udine';
         $train4->departure = date('Y-m-d',strtotime(2022-9-9));
         $train4->arrival =  date('Y-m-d',strtotime(2022-9-9));
-        $train4->train_code = '43435';
+        $train4->train_code = '4345';
         $train4->carriage_number = '3';
         $train4->isTrainLate = true;
         $train4->isTrainDeleted = false;
